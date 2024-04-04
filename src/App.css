@@ -1,0 +1,35 @@
+input {
+  width: 100%;
+}
+.app-container{
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #153677, #4e085f);
+  padding: 10px;
+}
+.todo-app{
+  width: 100%;
+  max-width: 540px;
+  background: #fff;
+  margin: 100px auto 20px;
+  padding: 40px 30px 70px;
+  border-radius: 10px;
+}
+input{
+  padding: 10px;
+  border: none;
+  outline: none;
+  background: transparent;
+  background: #edeef0;
+  border-radius: 30px;
+}
+.add-button{
+  border: none;
+  outline: none;
+  padding: 14px;
+  background: #ff5945;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 40px;
+}
